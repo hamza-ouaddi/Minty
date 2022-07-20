@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/85049b6cb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Minty</title>
+  </head>
+
+  <body>
+    <!-- Hero section -->
+
+    <section class="hero-section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md">
+          <!-- Navbar -->
+
+          <a class="navbar-brand" href="#">
+            <img
+              src="/images/Minty.svg"
+              alt="Minty-Logo"
+              width="200"
+              height="100"
+            />
+          </a>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rating">Rating</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Hero content -->
+
+        <div class="row hero">
+          <div class="col-lg-6">
+            <h1 class="hero-heading">
+              If it’s tea you’re looking for, we are the place to be.
+            </h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-success btn-lg download-button"
+            >
+              <i class="fa-brands fa-google-play"></i>
+              Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img class="hero-image" src="/images/Minty-App.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-md-4">
+            <i class="feature-icon fa-solid fa-thumbs-up fa-4x"></i>
+            <h3>Tasty</h3>
+            <p>Excellence taste in every sip.</p>
+          </div>
+          <div class="feature-box col-md-4">
+            <i class="feature-icon fa-solid fa-heart fa-4x"></i>
+            <h3>Healthy</h3>
+            <p>A drink that is irresistibly refreshing.</p>
+          </div>
+          <div class="feature-box col-md-4">
+            <i class="feature-icon fa-solid fa-leaf fa-4x"></i>
+            <h3>Bio</h3>
+            <p>From nature to your cup.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Costumer reviews -->
+    <section id="reviews">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="costumer-review col-md-12 col-lg-4">
+            <img
+              class="costumer-image"
+              src="/images/woman1.jpg"
+              width="150"
+              height="150"
+            />
+
+            <h4>Eve Camilia</h4>
+            <h5>Teacher</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut aliqua.
+            </p>
+          </div>
+          <div class="costumer-review col-md-12 col-lg-4">
+            <img
+              class="costumer-image"
+              src="/images/man1.jpg"
+              width="150"
+              height="150"
+            />
+
+            <h4>Branden Jason</h4>
+            <h5>Doctor</h5>
+            <p>
+              commodo elit at imperdiet dui accumsan sit amet nulla facilisi
+              morbi tempus iaculis urna id volutpat lacus laoreet non curabitur.
+            </p>
+          </div>
+          <div class="costumer-review col-md-12 col-lg-4">
+            <img
+              class="costumer-image"
+              src="/images/woman2.jpg"
+              width="150"
+              height="150"
+            />
+
+            <h4>Kaitlyn Adeline</h4>
+            <h5>Chef</h5>
+            <p>
+              nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet
+              risus nullam eget felis eget nunc lobortis mattis aliquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing section-->
+    <section id="pricing">
+      <h1>Amet mauris commodo quis imperdiet</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <div class="">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card border-success">
+              <div class="card-header"><h4>Free</h4></div>
+              <div class="card-body">
+                <h2>0$</h2>
+                <ul class="list-unstyled">
+                  <li>Tea community</li>
+                  <li>Some recipes</li>
+                  <li>Tips</li>
+                  <li>Gallery</li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn price-button btn-outline-success btn-lg"
+                >
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-success">
+              <div class="card-header"><h4>Premium</h4></div>
+              <div class="card-body">
+                <h2>10$</h2>
+                <ul class="list-unstyled">
+                  <li>All Recipes</li>
+                  <li>Live support & tips</li>
+                  <li>Order one cup per day</li>
+                  <li>Gifts</li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn price-button btn-outline-success btn-lg"
+                >
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-success">
+              <div class="card-header"><h4>Occasion</h4></div>
+              <div class="card-body">
+                <h2>60$</h2>
+                <ul class="list-unstyled">
+                  <li>Preparing and serving</li>
+                  <li>Unlimited cups of tea</li>
+                  <li>Dessert</li>
+                  <li>Atay</li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn price-button btn-outline-success btn-lg"
+                >
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download section -->
+
+    <section id="download">
+      <div>
+        <h1>Where there is tea, there is hope.</h1>
+        <button type="button" class="btn btn-dark btn-lg download-button">
+          <i class="fa-brands fa-apple"></i> Download
+        </button>
+        <button type="button" class="btn btn-success btn-lg download-button">
+          <i class="fa-brands fa-google-play"></i>
+          Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <p>© Copyright 2022</p>
+    </footer>
+  </body>
+</html>
